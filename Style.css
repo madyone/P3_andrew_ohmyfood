@@ -7,8 +7,122 @@ a{
 }
 
 h1{
+    display: flex;
     color:black;
-    font-size: 75px;
-    font-family: 'Roboto', sans-serif;
-    margin: 0 0 0 10px;
+    font-size: 55px;
+    font-family: 'Shrikhand';
+    font-weight: normal;
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+
+.location{  
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    margin: -10px;
+    padding: 10px;
+    border-top: 1px solid #D2D2D2;
+    color: rgb(0, 0, 0);
+    background-color: rgb(230, 230, 230);
+    column-gap: 9px;
+}
+
+.book{
+    padding: 32px;
+    margin: -10px;
+    margin-top: 11px;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+
+.book-subtitle{
+    font-size: 15px;
+    margin: 24px ;
+}
+
+.book-button{
+    border: 0;
+    padding: 12px 24px;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 100px;
+    color: #fff;
+    background-color: #686868;
+    background-image: linear-gradient(0deg,rgba(147,86,220,.9),rgba(255,121,218,.9));
+    cursor: pointer;
+    transition-duration: .25s;
+}
+
+.choice-un{
+    
+}
+
+.cards{
+    background-color: #f6f6f6;
+    padding: 32px 16px;
+    margin: -10px;
+}
+
+.card-img{
+    height: 190px;
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+    object-fit: cover;
+}
+
+.card-patch{
+    background-color: #99e2d0;
+    color: #1b6150;
+    padding: 5px;
+    border-radius: 2px;
+    position: absolute;
+    margin-top: 30px;
+    right: 26px;
+}
+
+.card-content{
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 0 16px 16px; 
+    color: rgb(0, 0, 0);
+    margin-top: -24px;
+    padding: 8px;
+}
+
+.fa-heart{
+    justify-content: space-between;
+    color:rgb(0, 0, 0);
+    font-size: xx-large;
+}
+
+.fa-heart:hover{
+    border-radius: 100px 100px 70px 70px;
+    background: linear-gradient(#9356dc,#ff79da);
+
+}
+
+footer{
+    background-color: rgb(53, 53, 53);
+    margin: -10px;
+    margin-top: -25px ;
+}
+
+.footer-column{
+    display: flex;
+    font-family: 'Shrikhand';
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    margin: 15px;
+    flex: 1 1 200px;
+}
+
+h6{
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.footer-column>a{
+    color: rgb(255, 255, 255);
+    row-gap: 30px;
 }
