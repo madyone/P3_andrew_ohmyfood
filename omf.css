@@ -112,10 +112,33 @@ p{
     margin-left: -4px;
 }
 
+
 .fa-heart{
     justify-content: space-between;
     color:rgb(0, 0, 0);
     font-size: xx-large;
+}
+
+.fa-stack:hover .far{
+    opacity: 0;
+}
+
+.fa-stack .far{
+    color: rgb(0, 0, 0);  
+}
+
+.fa-stack .fas{
+    color: linear-gradient(0deg,rgba(147,86,220,.9),rgba(255,121,218,.9));
+    opacity: 0;
+}
+
+.fa-stack:hover .fas{
+    opacity: 1;
+    transition-duration: 0.5s;
+    background:linear-gradient(0deg,rgba(147,86,220,.9),rgba(255,121,218,.9)); ;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 footer{
